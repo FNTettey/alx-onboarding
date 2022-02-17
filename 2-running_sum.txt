@@ -1,0 +1,12 @@
+Declare number, sum :Integer 
+sum = 0
+number = o
+
+input number
+
+While number > 0
+	sum = sum + number 
+	input number
+End While 
+
+Print Sum  #I wrote number instead od Sum on my white board

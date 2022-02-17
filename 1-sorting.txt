@@ -1,0 +1,24 @@
+Declare numbers array [0:3] of integer       #sorting smallest to biggest
+Declare temp, n: integer
+temp =o
+n=2
+For i = 0 to 2
+	Input Numbers[i]
+End For
+
+Repeat 
+	swap = false
+	for j = 1 to n
+		if numbers[j] > numbers[j+1] then
+			temp = numbers[j]
+			numbers[j] = numbers[j+1]
+			numbers[j+1] = temp     # I forgot this line on my whiteboard
+			swap = true
+		Endif
+	End For
+	n = n-1
+until swap = false 
+
+For k = 0 to 2
+	print numbers[k]
+End For
